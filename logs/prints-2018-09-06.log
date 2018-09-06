@@ -1,7 +1,7 @@
-13:03:25.386 [TestNG-PoolService-0] DEBUG resources.BaseClass - URL is hit on the browser
-13:03:40.869 [TestNG-PoolService-1] DEBUG resources.BaseClass - No Thanks in clicked
-13:03:43.470 [TestNG-PoolService-0] DEBUG resources.BaseClass - No Thanks in clicked
-13:03:44.212 [TestNG-PoolService-1] DEBUG resources.BaseClass - Login clicked
-13:04:06.495 [main] INFO  resources.BaseClass - navigation bar present
-13:42:16.406 [main] INFO  resources.BaseClass - Invoking browser------------------
-13:42:16.429 [main] DEBUG resources.BaseClass - URL is hit on the browser
+20:44:40.565 [main] DEBUG resources.BaseClass - URL is hit on the browser
+20:45:30.852 [main] DEBUG resources.BaseClass - No Thanks in clicked
+20:45:31.004 [main] DEBUG resources.BaseClass - Login clicked
+20:45:39.006 [main] DEBUG resources.BaseClass - URL is hit on the browser
+20:46:33.003 [main] DEBUG resources.BaseClass - No Thanks in clicked
+20:47:33.173 [main] INFO  resources.BaseClass - navigation bar present
+20:50:26.170 [main] INFO  resources.BaseClass - Invoking browser------------------

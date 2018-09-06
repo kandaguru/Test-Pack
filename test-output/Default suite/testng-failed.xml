@@ -6,7 +6,7 @@
       <class name="E2EPackage.LoginTC2">
         <methods>
           <include name="intializer"/>
-          <include name="loginFunction" invocation-numbers="1"/>
+          <include name="loginFunction" invocation-numbers="0 1"/>
           <include name="close"/>
         </methods>
       </class> <!-- E2EPackage.LoginTC2 -->

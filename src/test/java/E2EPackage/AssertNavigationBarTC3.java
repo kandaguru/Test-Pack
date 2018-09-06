@@ -2,7 +2,9 @@ package E2EPackage;
 
 import java.io.IOException;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -18,16 +20,15 @@ public class AssertNavigationBarTC3 extends BaseClass {
 
 		driver = initializeDriver();
 		driver.get(prop.getProperty("url"));
-	
+
 	}
 
 	@Test
-	public void assertNavigationBar() throws IOException  {
-		
+	public void assertNavigationBar() throws IOException {
 
 		LandingPageObject lanPO = new LandingPageObject(driver);
 
-		//lanPO.noThanksButton().click();
+		// lanPO.noThanksButton().click();
 
 		Assert.assertTrue(lanPO.navigationBar().isDisplayed());
 		log.info("navigation bar present");
@@ -38,7 +39,8 @@ public class AssertNavigationBarTC3 extends BaseClass {
 	public void closeBrowser() {
 
 		driver.close();
-		driver.manage().deleteAllCookies();
+		driver = null;
+
 	}
 
 }

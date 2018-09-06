@@ -4,6 +4,8 @@ package E2EPackage;
 
 import java.io.IOException;
 
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
@@ -20,6 +22,8 @@ public class URLCheckTC1 extends BaseClass{
 				
 		driver=initializeDriver();
 		driver.get("http://www.qaclickacademy.com/");
+		
+		Assert.assertEquals(driver.getCurrentUrl(), prop.getProperty("url"));
 			
 	}
 	
@@ -29,7 +33,8 @@ public class URLCheckTC1 extends BaseClass{
 	{
 		
 		driver.close();
-		driver.manage().deleteAllCookies();
+		driver=null;
+		
 	}
 	
 	

@@ -3,11 +3,9 @@ package E2EPackage;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -20,7 +18,6 @@ import resources.BaseClass;
 public class LoginTC2 extends BaseClass {
 	
 	
-
 	@BeforeTest
 	public void intializer() throws IOException {
 				
@@ -45,11 +42,18 @@ public class LoginTC2 extends BaseClass {
 
 		log.debug("Login clicked");
 		lanPO.loginButton().click();
+		
 
 		lpo.UserIdBox().sendKeys(user_id);
-
 		lpo.pwdBox().sendKeys(pwd);
 		lpo.loginButton1().click();
+		
+	
+		//driver.get(prop.getProperty("ChromeClear"));	
+		
+		//clearCache();	
+		
+		
 		
 	}
 
@@ -57,6 +61,7 @@ public class LoginTC2 extends BaseClass {
 	public void close() {
 
 		driver.close();
+		driver=null;
 
 	}
 

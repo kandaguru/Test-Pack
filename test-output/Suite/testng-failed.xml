@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+  <listeners>
+    <listener class-name="E2EPackage.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Login verification(failed)">
     <classes>
       <class name="E2EPackage.LoginTC2">
         <methods>
           <include name="intializer"/>
-          <include name="loginFunction" invocation-numbers="0"/>
+          <include name="loginFunction" invocation-numbers="1"/>
           <include name="close"/>
         </methods>
       </class> <!-- E2EPackage.LoginTC2 -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Login verification(failed) -->
 </suite> <!-- Failed suite [Suite] -->

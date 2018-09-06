@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48593" started-at="2018-09-06T01:42:12Z" finished-at="2018-09-06T01:43:00Z">
+  <suite name="Suite" duration-ms="210397" started-at="2018-09-06T08:49:32Z" finished-at="2018-09-06T08:53:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48593" started-at="2018-09-06T01:42:12Z" finished-at="2018-09-06T01:43:00Z">
+    <test name="URL validation" duration-ms="49925" started-at="2018-09-06T08:49:32Z" finished-at="2018-09-06T08:50:22Z">
+      <class name="E2EPackage.URLCheckTC1">
+        <test-method status="PASS" signature="Login()[pri:0, instance:E2EPackage.URLCheckTC1@7d8995e]" name="Login" duration-ms="49688" started-at="2018-09-06T08:49:32Z" finished-at="2018-09-06T08:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EPackage.URLCheckTC1@7d8995e]" name="teardown" is-config="true" duration-ms="214" started-at="2018-09-06T08:50:22Z" finished-at="2018-09-06T08:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EPackage.URLCheckTC1 -->
+    </test> <!-- URL validation -->
+    <test name="Login verification" duration-ms="113678" started-at="2018-09-06T08:50:22Z" finished-at="2018-09-06T08:52:16Z">
       <class name="E2EPackage.LoginTC2">
-        <test-method status="PASS" signature="intializer()[pri:0, instance:E2EPackage.LoginTC2@223191a6]" name="intializer" is-config="true" duration-ms="4336" started-at="2018-09-06T01:42:12Z" finished-at="2018-09-06T01:42:16Z">
+        <test-method status="PASS" signature="intializer()[pri:0, instance:E2EPackage.LoginTC2@55141def]" name="intializer" is-config="true" duration-ms="3530" started-at="2018-09-06T08:50:22Z" finished-at="2018-09-06T08:50:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializer -->
-        <test-method status="PASS" signature="loginFunction(java.lang.String, java.lang.String)[pri:0, instance:E2EPackage.LoginTC2@223191a6]" name="loginFunction" duration-ms="24412" started-at="2018-09-06T01:42:16Z" data-provider="loginDataInput" finished-at="2018-09-06T01:42:40Z">
+        <test-method status="PASS" signature="loginFunction(java.lang.String, java.lang.String)[pri:0, instance:E2EPackage.LoginTC2@55141def]" name="loginFunction" duration-ms="51208" started-at="2018-09-06T08:50:26Z" data-provider="loginDataInput" finished-at="2018-09-06T08:51:17Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunction -->
-        <test-method status="FAIL" signature="loginFunction(java.lang.String, java.lang.String)[pri:0, instance:E2EPackage.LoginTC2@223191a6]" name="loginFunction" duration-ms="19666" started-at="2018-09-06T01:42:40Z" data-provider="loginDataInput" finished-at="2018-09-06T01:43:00Z">
+        <test-method status="FAIL" signature="loginFunction(java.lang.String, java.lang.String)[pri:0, instance:E2EPackage.LoginTC2@55141def]" name="loginFunction" duration-ms="57723" started-at="2018-09-06T08:51:17Z" data-provider="loginDataInput" finished-at="2018-09-06T08:52:15Z">
           <params>
             <param index="0">
               <value>
@@ -48,10 +60,10 @@
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'IT364925', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_172'
+System info: host: 'IT364925', ip: '192.168.1.66', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_172'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\kbas663\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53723}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: 6787e562836416cf17f4943fe12dee82
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\kbas663\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58295}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 0be1e7b21dd8063af0c7ba391d3cab0e
 *** Element info: {Using=xpath, value=//button[contains(text(),'NO THANKS')]}]]>
             </message>
             <full-stacktrace>
@@ -61,10 +73,10 @@ Session ID: 6787e562836416cf17f4943fe12dee82
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'IT364925', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_172'
+System info: host: 'IT364925', ip: '192.168.1.66', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_172'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\kbas663\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53723}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: 6787e562836416cf17f4943fe12dee82
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\kbas663\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58295}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 0be1e7b21dd8063af0c7ba391d3cab0e
 *** Element info: {Using=xpath, value=//button[contains(text(),'NO THANKS')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -83,7 +95,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
 at pageObject.LandingPageObject.noThanksButton(LandingPageObject.java:24)
-at E2EPackage.LoginTC2.loginFunction(LoginTC2.java:38)
+at E2EPackage.LoginTC2.loginFunction(LoginTC2.java:41)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -115,11 +127,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunction -->
-        <test-method status="PASS" signature="close()[pri:0, instance:E2EPackage.LoginTC2@223191a6]" name="close" is-config="true" duration-ms="151" started-at="2018-09-06T01:43:00Z" finished-at="2018-09-06T01:43:00Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:E2EPackage.LoginTC2@55141def]" name="close" is-config="true" duration-ms="266" started-at="2018-09-06T08:52:16Z" finished-at="2018-09-06T08:52:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- E2EPackage.LoginTC2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login verification -->
+    <test name="Assertion navigation" duration-ms="46694" started-at="2018-09-06T08:52:16Z" finished-at="2018-09-06T08:53:03Z">
+      <class name="E2EPackage.AssertNavigationBarTC3">
+        <test-method status="PASS" signature="intitializer()[pri:0, instance:E2EPackage.AssertNavigationBarTC3@77888435]" name="intitializer" is-config="true" duration-ms="46360" started-at="2018-09-06T08:52:16Z" finished-at="2018-09-06T08:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitializer -->
+        <test-method status="PASS" signature="assertNavigationBar()[pri:0, instance:E2EPackage.AssertNavigationBarTC3@77888435]" name="assertNavigationBar" duration-ms="113" started-at="2018-09-06T08:53:02Z" finished-at="2018-09-06T08:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNavigationBar -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:E2EPackage.AssertNavigationBarTC3@77888435]" name="closeBrowser" is-config="true" duration-ms="218" started-at="2018-09-06T08:53:02Z" finished-at="2018-09-06T08:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- E2EPackage.AssertNavigationBarTC3 -->
+    </test> <!-- Assertion navigation -->
+    <test name="AppTest" duration-ms="4" started-at="2018-09-06T08:53:03Z" finished-at="2018-09-06T08:53:03Z">
+    </test> <!-- AppTest -->
+  </suite> <!-- Suite -->
 </testng-results>

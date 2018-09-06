@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<test thread-count="5" name="Test">
+
+<listeners>
+<listener class-name="E2EPackage.Listeners"></listener>
+
+</listeners>
+	<test name="URL validation">
 		<classes>
 			<class name="E2EPackage.URLCheckTC1" />
-			<class name="E2EPackage.LoginTC2" />
-			<class name="E2EPackage.AssertNavigationBarTC3" />
 
+		</classes>
+	</test>
+
+	<test name="Login verification">
+		<classes>
+
+			<class name="E2EPackage.LoginTC2" />
+
+		</classes>
+	</test>
+
+	<test name="Assertion navigation">
+		<classes>
+			<class name="E2EPackage.AssertNavigationBarTC3" />
+		</classes>
+	</test>
+	<test name="AppTest">
+		<classes>
 			<class name="E2EPackage.AppTest" />
 		</classes>
 	</test> <!-- Test -->
