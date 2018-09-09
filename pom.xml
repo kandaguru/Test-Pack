@@ -44,9 +44,6 @@
 			<version>2.6</version>
 		</dependency>
 
-
-
-
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
