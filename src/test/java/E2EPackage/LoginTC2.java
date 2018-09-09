@@ -51,7 +51,7 @@ public class LoginTC2 extends BaseClass {
 	
 		//driver.get(prop.getProperty("ChromeClear"));	
 		
-		//clearCache();	
+		clearCache();	
 		
 		
 		
