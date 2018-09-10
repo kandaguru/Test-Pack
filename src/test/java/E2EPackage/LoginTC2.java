@@ -58,7 +58,7 @@ public class LoginTC2 extends BaseClass {
 	}
 
 	@AfterTest
-	public void close() {
+	public void tearDown() {
 
 		driver.close();
 		driver=null;

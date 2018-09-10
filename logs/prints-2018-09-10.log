@@ -1,7 +1,7 @@
-11:03:56.835 [main] DEBUG resources.BaseClass - Login clicked
-11:04:41.005 [main] INFO  resources.BaseClass - navigation bar present
-11:06:56.413 [main] INFO  resources.BaseClass - Invoking browser------------------
-11:06:56.420 [main] DEBUG resources.BaseClass - URL is hit on the browser
-11:07:08.333 [main] DEBUG resources.BaseClass - No Thanks in clicked
-11:07:09.069 [main] DEBUG resources.BaseClass - Login clicked
-11:07:23.050 [main] DEBUG resources.BaseClass - URL is hit on the browser
+14:15:57.050 [main] DEBUG resources.BaseClass - Login clicked
+14:16:33.032 [main] INFO  resources.BaseClass - navigation bar present
+14:31:49.015 [main] INFO  resources.BaseClass - Invoking browser------------------
+14:31:49.022 [main] DEBUG resources.BaseClass - URL is hit on the browser
+14:32:01.808 [main] DEBUG resources.BaseClass - No Thanks in clicked
+14:32:03.937 [main] DEBUG resources.BaseClass - Login clicked
+14:32:19.928 [main] DEBUG resources.BaseClass - URL is hit on the browser

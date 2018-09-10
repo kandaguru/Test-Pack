@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="E2EPackage.LoginTC2">
+      <class name="E2EPackage.AssertNavigationBarTC3">
         <methods>
-          <include name="intializer"/>
-          <include name="loginFunction" invocation-numbers="0"/>
-          <include name="close"/>
+          <include name="intitializer"/>
+          <include name="closeBrowser"/>
+          <include name="assertNavigationBar"/>
         </methods>
-      </class> <!-- E2EPackage.LoginTC2 -->
+      </class> <!-- E2EPackage.AssertNavigationBarTC3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

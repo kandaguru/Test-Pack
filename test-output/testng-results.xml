@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="109463" started-at="2018-09-09T23:02:51Z" finished-at="2018-09-09T23:04:41Z">
+  <suite name="Suite" duration-ms="99423" started-at="2018-09-10T02:14:53Z" finished-at="2018-09-10T02:16:33Z">
     <groups>
     </groups>
-    <test name="URL validation" duration-ms="20227" started-at="2018-09-09T23:02:51Z" finished-at="2018-09-09T23:03:11Z">
+    <test name="URL validation" duration-ms="18124" started-at="2018-09-10T02:14:53Z" finished-at="2018-09-10T02:15:11Z">
       <class name="E2EPackage.URLCheckTC1">
-        <test-method status="PASS" signature="Login()[pri:0, instance:E2EPackage.URLCheckTC1@409bf450]" name="Login" duration-ms="20023" started-at="2018-09-09T23:02:51Z" finished-at="2018-09-09T23:03:11Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:E2EPackage.URLCheckTC1@409bf450]" name="Login" duration-ms="17897" started-at="2018-09-10T02:14:53Z" finished-at="2018-09-10T02:15:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EPackage.URLCheckTC1@409bf450]" name="teardown" is-config="true" duration-ms="179" started-at="2018-09-09T23:03:11Z" finished-at="2018-09-09T23:03:11Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EPackage.URLCheckTC1@409bf450]" name="teardown" is-config="true" duration-ms="190" started-at="2018-09-10T02:15:11Z" finished-at="2018-09-10T02:15:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- E2EPackage.URLCheckTC1 -->
     </test> <!-- URL validation -->
-    <test name="Login verification" duration-ms="60192" started-at="2018-09-09T23:03:11Z" finished-at="2018-09-09T23:04:12Z">
+    <test name="Login verification" duration-ms="60115" started-at="2018-09-10T02:15:12Z" finished-at="2018-09-10T02:16:12Z">
       <class name="E2EPackage.LoginTC2">
-        <test-method status="PASS" signature="intializer()[pri:0, instance:E2EPackage.LoginTC2@71d44a3]" name="intializer" is-config="true" duration-ms="3451" started-at="2018-09-09T23:03:11Z" finished-at="2018-09-09T23:03:15Z">
+        <test-method status="PASS" signature="intializer()[pri:0, instance:E2EPackage.LoginTC2@71d44a3]" name="intializer" is-config="true" duration-ms="3503" started-at="2018-09-10T02:15:12Z" finished-at="2018-09-10T02:15:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializer -->
-        <test-method status="PASS" signature="loginFunction(java.lang.String, java.lang.String)[pri:0, instance:E2EPackage.LoginTC2@71d44a3]" name="loginFunction" duration-ms="28438" started-at="2018-09-09T23:03:15Z" data-provider="loginDataInput" finished-at="2018-09-09T23:03:43Z">
+        <test-method status="PASS" signature="loginFunction(java.lang.String, java.lang.String)[pri:0, instance:E2EPackage.LoginTC2@71d44a3]" name="loginFunction" duration-ms="28955" started-at="2018-09-10T02:15:15Z" data-provider="loginDataInput" finished-at="2018-09-10T02:15:44Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunction -->
-        <test-method status="PASS" signature="loginFunction(java.lang.String, java.lang.String)[pri:0, instance:E2EPackage.LoginTC2@71d44a3]" name="loginFunction" duration-ms="26201" started-at="2018-09-09T23:03:43Z" data-provider="loginDataInput" finished-at="2018-09-09T23:04:10Z">
+        <test-method status="PASS" signature="loginFunction(java.lang.String, java.lang.String)[pri:0, instance:E2EPackage.LoginTC2@71d44a3]" name="loginFunction" duration-ms="27408" started-at="2018-09-10T02:15:44Z" data-provider="loginDataInput" finished-at="2018-09-10T02:16:11Z">
           <params>
             <param index="0">
               <value>
@@ -55,29 +55,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunction -->
-        <test-method status="PASS" signature="close()[pri:0, instance:E2EPackage.LoginTC2@71d44a3]" name="close" is-config="true" duration-ms="2087" started-at="2018-09-09T23:04:10Z" finished-at="2018-09-09T23:04:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EPackage.LoginTC2@71d44a3]" name="tearDown" is-config="true" duration-ms="234" started-at="2018-09-10T02:16:11Z" finished-at="2018-09-10T02:16:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
+        </test-method> <!-- tearDown -->
       </class> <!-- E2EPackage.LoginTC2 -->
     </test> <!-- Login verification -->
-    <test name="Assertion navigation" duration-ms="28960" started-at="2018-09-09T23:04:12Z" finished-at="2018-09-09T23:04:41Z">
+    <test name="Assertion navigation" duration-ms="21084" started-at="2018-09-10T02:16:12Z" finished-at="2018-09-10T02:16:33Z">
       <class name="E2EPackage.AssertNavigationBarTC3">
-        <test-method status="PASS" signature="intitializer()[pri:0, instance:E2EPackage.AssertNavigationBarTC3@78691363]" name="intitializer" is-config="true" duration-ms="28742" started-at="2018-09-09T23:04:12Z" finished-at="2018-09-09T23:04:40Z">
+        <test-method status="PASS" signature="intitializer()[pri:0, instance:E2EPackage.AssertNavigationBarTC3@78691363]" name="intitializer" is-config="true" duration-ms="20764" started-at="2018-09-10T02:16:12Z" finished-at="2018-09-10T02:16:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intitializer -->
-        <test-method status="PASS" signature="assertNavigationBar()[pri:0, instance:E2EPackage.AssertNavigationBarTC3@78691363]" name="assertNavigationBar" duration-ms="53" started-at="2018-09-09T23:04:40Z" finished-at="2018-09-09T23:04:41Z">
+        <test-method status="PASS" signature="assertNavigationBar()[pri:0, instance:E2EPackage.AssertNavigationBarTC3@78691363]" name="assertNavigationBar" duration-ms="112" started-at="2018-09-10T02:16:32Z" finished-at="2018-09-10T02:16:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertNavigationBar -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:E2EPackage.AssertNavigationBarTC3@78691363]" name="closeBrowser" is-config="true" duration-ms="157" started-at="2018-09-09T23:04:41Z" finished-at="2018-09-09T23:04:41Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:E2EPackage.AssertNavigationBarTC3@78691363]" name="closeBrowser" is-config="true" duration-ms="205" started-at="2018-09-10T02:16:33Z" finished-at="2018-09-10T02:16:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- E2EPackage.AssertNavigationBarTC3 -->
     </test> <!-- Assertion navigation -->
-    <test name="AppTest" duration-ms="1" started-at="2018-09-09T23:04:41Z" finished-at="2018-09-09T23:04:41Z">
+    <test name="AppTest" duration-ms="2" started-at="2018-09-10T02:16:33Z" finished-at="2018-09-10T02:16:33Z">
     </test> <!-- AppTest -->
   </suite> <!-- Suite -->
 </testng-results>
